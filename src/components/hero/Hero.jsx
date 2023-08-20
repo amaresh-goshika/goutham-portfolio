@@ -14,7 +14,7 @@ import Subject from "../../assets/Subject.png";
 
 const Hero = () => {
   return (
-    <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
+    <div id="home" className={` bg-gradient-to-r from-gray-600 via-gray-300 to-gray-600 `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -27,7 +27,7 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Full Stack Developer",
+                "Associate Marketing Manager ",
                 2000,
 //                 "Freelancer",
 //                 2000,
@@ -40,7 +40,7 @@ const Hero = () => {
             />
             <p
               // data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
+              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-white sm:text-[.95rem]"
             >
               Looking for Full Time and Contract Positions
             </p>

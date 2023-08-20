@@ -52,7 +52,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
+        scrollPosition > 0 ? `bg-black shadow-md` : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
@@ -60,7 +60,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <Link
             onClick={() => window.scrollTo(0, 0)}
             to="/"
-            className="text-3xl font-bold sm:text-3xl"
+            className="text-3xl text-white font-bold sm:text-3xl"
           >
             Goutham Dornala.
           </Link>
@@ -97,7 +97,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
+                  className={`uppercase cursor-pointer text-white hover:text-yellow-600 font-bold ${
                     item.name === activeIndex ? "text-yellow-600" : ""
                   }`}
                 >
@@ -107,7 +107,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href=""
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className="bg-yellow-500 text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>
